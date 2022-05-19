@@ -1,0 +1,43 @@
+body{
+    background: url(../img/pexels-konevi-3789871.jpg) no-repeat;
+    
+}
+
+#navbarNavDropdown{
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    position: static;
+    
+}
+.container {
+    
+    padding: 4%;
+    width: 30%; 
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+
+    
+}
+.nn{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+form {
+    display: flex;
+    padding: 1px;
+    flex-direction:column ;
+}
+tr{
+    width: 5%;
+    margin: 5px;
+}
+.boton{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    
+}
